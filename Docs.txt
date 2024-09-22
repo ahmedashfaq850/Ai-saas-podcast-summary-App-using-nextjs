@@ -1,0 +1,8 @@
+Prisma Setup
+npm install prisma typescript ts-node @types/node --save-dev
+npx tsc --init
+npx prisma 
+npx prisma init
+npm install @prisma/client
+After creating Model
+npx prisma migrate dev --name = users () 
